@@ -1,0 +1,177 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(249, 241, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.container {
+  background-color: rgb(211, 158, 255);
+  width: 30%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  border: 1px solid #000;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.body label {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+}
+
+.body input {
+  width: 100%;
+}
+
+.body p {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 800;
+  border: 2px solid #fff;
+  padding: 1.3rem 2rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.body p {
+  width: 50%;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+button {
+  width: 50%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.wrappers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000002b;
+}
+
+.wrapper {
+  background-color: #aa00ff;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.wrapper p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1470px) {
+  .container {
+    width: 80%;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+  .body label {
+    font-size: 1rem;
+  }
+  .body p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    width: 50%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+
+  .wrapper p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+/* @media screen and (max-width: 376px) {
+  .wrapper p {
+    font-size: 0.9rem;
+  }
+} */
